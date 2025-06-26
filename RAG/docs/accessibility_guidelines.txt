@@ -1,0 +1,18 @@
+
+            Accessibility Guidelines for UI Components:
+            
+            1. Color and Contrast:
+            - Minimum contrast ratio 4.5:1 for normal text
+            - Don't rely solely on color to convey information
+            - Provide alternative indicators (icons, text)
+            
+            2. Keyboard Navigation:
+            - All interactive elements must be keyboard accessible
+            - Logical tab order
+            - Visible focus indicators
+            
+            3. Screen Reader Support:
+            - Use semantic HTML elements
+            - Provide ARIA labels where needed
+            - Include alternative text for images
+            

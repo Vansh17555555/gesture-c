@@ -9,7 +9,7 @@ const Theme = ({id}) => {
             <div className="theme-card-1">
           
               <div className="theme-content">
-                <h3 className="theme-title">Healthcare, Fitness, Well-being</h3>
+                <h3 className="theme-title">Healthcare,<br></br> Fitness, Well-being</h3>
                 <p>This theme encompasses the integration of XR technologies into the healthcare sector, focusing on enhancing patient care, promoting fitness, and improving overall well-being.
                 </p>
               </div>

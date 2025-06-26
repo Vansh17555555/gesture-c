@@ -8,6 +8,8 @@ import About from './components/About';
 import Timelines from './components/Timeline';
 import Prize from './components/Prize';
 import Organiser from './components/Organiser';
+import Waves from './components/Waves';
+import { Section } from 'lucide-react';
 
 const App = () => {
   const register = () => {
@@ -20,12 +22,16 @@ const App = () => {
     <>
       <Navbar register={register} />
       <div className="hackathon-image-section">
-        <img src="/assets/image 1.png" alt="Lower Image" className="hackathon-image lower" />
-        <img src="/assets/image 3(1).png" alt="Upper Image" className="hackathon-image upper" />
+        <img src="/assets/Banner Layers.png" alt="Upper Image" className="hackathon-image upper" />
       </div>
       <section id="about">
         <About />
+        </section>
+        
+        <section>
+        <Waves/>
       </section>
+      
       <section id="theme">
         <Theme />
       </section>

@@ -1,0 +1,22 @@
+# Core requirements for Sketch2Answer
+streamlit>=1.29.0
+google-generativeai>=0.3.0
+pillow>=10.0.0
+numpy>=1.24.0
+pandas>=2.1.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# RAG and embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+langchain>=0.1.0
+langchain-google-genai>=0.0.5
+
+# File handling
+pypdf2>=3.0.0
+python-multipart>=0.0.6
+aiofiles>=23.2.0
+
+# Fix dependency conflicts
+protobuf>=3.20.3,<5.0.0 

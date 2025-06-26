@@ -1,0 +1,17 @@
+streamlit
+google-generativeai
+langchain
+langchain-google-genai
+chromadb
+pillow
+numpy
+pandas
+requests
+python-dotenv
+sentence-transformers
+transformers
+pypdf2
+python-multipart
+aiofiles
+protobuf
+opencv-python
